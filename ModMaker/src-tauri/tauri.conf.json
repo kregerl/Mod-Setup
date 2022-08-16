@@ -12,6 +12,10 @@
   },
   "tauri": {
     "allowlist": {
+      "dialog": {
+        "open": true,
+        "save": true 
+      },
       "http": {
         "scope": ["https://files.minecraftforge.net/net/minecraftforge/forge/maven-metadata.json", "https://meta.fabricmc.net/v2/versions"]
       },
